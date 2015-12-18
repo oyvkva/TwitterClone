@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/yinchangxin/hashnest-api.git
+  revision: 59c9d85f05370a4a1b30581ba30caade1d3bf836
+  specs:
+    hashnest (0.1.6)
+      addressable
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,6 +44,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    addressable (2.4.0)
     ansi (1.5.0)
     arel (6.0.3)
     bcrypt (3.1.7)
@@ -336,6 +344,7 @@ DEPENDENCIES
   faker (= 1.4.2)
   fog (= 1.36.0)
   guard-minitest (= 2.3.1)
+  hashnest!
   jbuilder (= 2.2.3)
   jquery-rails (= 4.0.3)
   mini_backtrace (= 0.1.3)
