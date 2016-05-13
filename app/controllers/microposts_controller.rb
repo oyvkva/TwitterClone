@@ -1,4 +1,5 @@
 class MicropostsController < ApplicationController
+  # Ok, so we are just adding a comment here
   before_action :logged_in_user, only: [:create, :destroy]
   before_action :correct_user,   only: :destroy
 
